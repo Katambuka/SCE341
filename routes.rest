@@ -1,0 +1,19 @@
+//GET all users:
+URL: http://localhost:8080/Users
+//Returns a JSON array of user objects.
+
+//GET a single user by ID:
+URL: http://localhost:8080/Users/
+
+
+//POST (Create) a new user:
+URL: http://localhost:8080/Users
+//HTTP Method: POST
+
+//PUT (Update) a user by ID:
+URL: http://localhost:8080/Users/:id
+//HTTP Method: PUT
+
+//DELETE a user by ID:
+URL: http://localhost:8080/Users/:id
+//HTTP Method: DELETE
