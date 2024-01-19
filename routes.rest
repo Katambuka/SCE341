@@ -1,16 +1,21 @@
 //GET all users:
-URL: http://localhost:8080/Users
+
+Get: http://localhost:8080/UsersHTTP/1.1
 //Returns a JSON array of user objects.
 
 //GET a single user by ID:
-URL: http://localhost:8080/Users/
+
+GET : http://localhost:8080/Users/HTTP/1.1
 
 
 //POST (Create) a new user:
+
 URL: http://localhost:8080/Users
 //HTTP Method: POST
 
 //PUT (Update) a user by ID:
+
+
 URL: http://localhost:8080/Users/:id
 //HTTP Method: PUT
 
