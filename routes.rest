@@ -16,9 +16,9 @@ URL: http://localhost:8080/Users
 //PUT (Update) a user by ID:
 
 
-URL: http://localhost:8080/Users/:id
+URL: http://localhost:8080/:id
 //HTTP Method: PUT
 
 //DELETE a user by ID:
-URL: http://localhost:8080/Users/:id
+URL: http://localhost:8080/:id
 //HTTP Method: DELETE
